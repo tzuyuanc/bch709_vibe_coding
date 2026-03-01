@@ -1,3 +1,8 @@
+# Cluster 1: the expression of genes is inhibited by 37C to 25C shock and Heat Shock hs−2 the most, but is induced by Heat Shock hs−1 and heat shock 20 minutes.
+# Cluster 2: the expression of genes is inhibited by 37C to 25C shoch and Heat Shock hs−1 strongly, but is induced by Heat Shock hs−2.
+# Cluster 3: the expression of genes is induced by Heat Shock hs-2 and 37C to 25C shock strongly, but is inhibited by the other stresses (Heat Shock hs−1 is the most inhibitory).
+# Cluster 4: the expression of genes is inhibited by Heat Shock hs−1, Heat Shock hs−2, and 37C to 25C shock, but is induced by the heat shock 20 minutes stress series.
+
 #!/usr/bin/env Rscript
 
 suppressPackageStartupMessages({
