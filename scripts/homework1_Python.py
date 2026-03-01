@@ -4,7 +4,6 @@
 #Input:
 #- ~/bch709_vibe_coding/data/mrna.fa.gz (yeast mRNA)
 
-
 #Task:
 #- extract sequence information from the UCSC yeast (Saccharomyces cerevisiae) mRNA FASTA file (mrna.fa.gz)
 #- analyze GC content distribution, and produce a summary table and distribution graph
@@ -26,6 +25,12 @@
 
 #Don't run the script. But, provide the full script, so I can run it in terminal and generate my results
 
+
+# Interpretation: 
+# The GC content of yeast mRNA is lower than eukaryotic mRNA generally. The potential reasons are as follows:
+# - 1. High GC content can elevate mutation rates and recombination rates in yeast. This will cause the genome to be more unstable during evolution. Therefore, yeast prefers to have lower GC content in the mRNA.
+# - 2. Lower GC content can reduce secondary structures in mRNA, facilitating more efficient tanslation because yeast has a fast growth rate and needs efficient translation.
+# - reference: https://doi.org/10.1073/pnas.1807334115
 
 #!/usr/bin/env python3
 

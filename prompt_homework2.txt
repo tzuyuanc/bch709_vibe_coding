@@ -15,14 +15,14 @@ Task:
 5. Hierarchical clustering: dist(euclidean) → hclust(ward.D2)
 6. cutree(k=4) to assign 4 clusters
 
-For the heatmap:
+- For the heatmap:
 - Use pheatmap
 - Show cluster assignment as annotation_row color bar
 - Use only the first 30 condition columns (original order, cluster_cols = FALSE)
 
 
 Output:
--1. Clustered Heatmap — results/cv_top200_cluster_heatmap.pdf
+- 1. Clustered Heatmap — results/cv_top200_cluster_heatmap.pdf
 
 Specification	Value
 Data	Log2 expression ratios → row-wise Z-score
@@ -31,7 +31,8 @@ Rows	gene_id (hierarchical clustering, ward.D2, euclidean)
 Columns	First 30 stress condition columns only (original order, cluster_cols = FALSE)
 Annotation	k=4 cutree as color bar
 Size	8 × 12 inches
-2. Assignment Table — results/cluster_assignment.tsv
+
+- 2. Assignment Table — results/cluster_assignment.tsv
 
 Column	Description
 gene_id	Gene identifier (e.g., YAL001C)
